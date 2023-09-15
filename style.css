@@ -1,0 +1,335 @@
+* {
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/nebula.jpg);
+    font-family: url(https://fonts.google.com/specimen/Roboto);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+                                                        /* Main Containers */
+
+                          /* Header*/                              
+.container_header {
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    max-width: 80em;
+}
+
+.nav_header {
+    position: fixed;
+}
+
+                                                        /* layout classes for denoting different elements */
+/*
+
+.containerdif {
+    background-color: yellow;
+}
+
+.boxdif {
+    background-color: aliceblue;
+}
+
+                                                        /* Box element items */
+
+
+.header_box {
+    margin: auto;
+    padding: auto;
+}
+
+/*.header_divider_1 {
+
+} */
+
+.header_divider_2 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+/*    background-color: red;  */
+
+}
+
+
+                                                        /* element classes */
+
+.brand {
+    color: antiquewhite;
+    font-size: 20px;
+    min-height: auto;
+    padding: auto;
+
+}
+
+.nav_bar {
+    flex-wrap: wrap;
+    display: flex;
+    justify-self: flex-end;
+    font-size: 12px;
+    color: antiquewhite;
+    min-height: auto;
+    padding: 5px;
+    align-items: center;
+}
+
+                                                        /*  Main  */
+                /* Feature box */
+
+.theater_pic {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: auto;
+/*    background-image: url(images/theater-image-background.jpg);  */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 80em;
+}
+
+.dancer_pic {
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-width: 37.5em;
+}
+
+.feature_text {
+    position: absolute;
+    height: 30%;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 5em;
+    color: antiquewhite;
+    max-width: 60em;                                                  /* */
+}
+
+.feature_text_bg {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-width: 60em;                                                  /* */
+    background-image: url(images/Dry-Brush-Stroke-PNG-Image-HD-874996085);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
+
+
+.Featured {
+    margin: auto;
+}
+
+
+                /* show Cards menu */
+/* show cards menu header */
+
+.Shows_list {
+    display: block;
+    position: relative;
+/*    background: #ff0000; */
+    justify-content: center;
+}
+
+.month {
+    background-color: rgb(169, 206, 206);
+    text-align: center;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    
+
+}
+
+/* show card */
+
+.Show_card {
+    background-color: rgb(250, 235, 215, 0.2);
+    border-top: 2px solid rgb(221, 153, 221);
+    border-bottom: 1px solid rgb(221, 153, 221);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 5px;
+    max-width: 1000px;
+}
+
+.show_card_pic {
+/*    background-color: yellow;  */
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+#rasin_in_the_sun_pic {
+    width: 100%;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid cyan;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.show_card_address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 2;
+    align-items: center;
+    background-color: rgb(0, 255, 255, .2);
+    color: antiquewhite;
+    min-width: 300px;
+    height: 100%;
+    margin: 10px;
+    border-right: 1px dotted antiquewhite;
+    border-left: 1px dotted antiquewhite;
+}
+
+.show_card_button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+/*    background-color: green;  */
+    justify-content: center;
+    min-width: 200px;
+}
+
+.buy_button {
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0, .0);
+    background-image: url(images/ticket_stub);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 200px;
+    height: 100px;
+}
+
+                /* Footer */
+
+footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    max-width: 80em;
+}
+
+/* Social */
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.social_title {
+/*    background-color: azure;  */
+    display: block;
+    font-size: 2em;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.social_list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social_icon {
+    text-align: center;
+/*    background-color: aliceblue; */
+    display: block;
+    min-width: 100px;
+    font-size: 20px;
+}
+
+.social_icon_pic {
+    max-width: 50px;
+}
+
+/* info */
+
+.info_main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100em;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 30px;
+}
+
+/* Contact info */
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.map {
+    align-self: center;
+    display: flex;
+    max-width: 100em;
+
+}
+
+.info_box_title {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+
+.info_box {
+/*    background-color: aliceblue;  */
+    display: block;
+    text-align: center;
+}
+
+/* General info */
+
+.event_info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-width: 200px;
+    flex-grow: 1.5;
+}
